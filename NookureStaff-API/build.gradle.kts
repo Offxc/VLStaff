@@ -97,7 +97,7 @@ tasks {
       "https://google.github.io/guice/api-docs/${libs.guice.get().version}/javadoc/",
       "https://jd.advntr.dev/api/${libs.adventureApi.get().version}/",
       "https://javadoc.io/doc/com.github.ben-manes.caffeine/caffeine",
-      "https://jd.papermc.io/paper/1.20.6/"
+      "https://jd.papermc.io/paper/1.21.8/"
     )
   }
 }
