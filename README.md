@@ -1,7 +1,9 @@
-# Introducing NookureStaff OSS
-> This is the free version of the plugin available to the public. It currently includes all the features of the formerly premium version. However, please note that personalized support through Discord tickets will only be available to buyers of NookureStaff. The free version might have limitations in the future and could require an additional payment for certain features. The plugin's source code will remain published under the AGPLv3 license.
+# Introducing VLStaff LTSC
+> This plugin is an independent fork of NookureStaff (original project). It includes Minecraft 1.21.10 support and additional features not present in the upstream plugin.
+> Support for this fork is not provided in the Nookure Discord. If you need help, please open an Issue on this fork’s GitHub repository.
+> The source code remains published under the AGPLv3 license.
 
-NookureStaff is the most advanced staff utilities plugin for Minecraft servers. Its comprehensive features, extensive customization options, and remarkable flexibility make it suitable for any type of Minecraft server, whether a small standalone server or a massive multi-proxy network.
+VLStaff is the most advanced staff utilities plugin for Minecraft servers. Its comprehensive features, extensive customization options, and remarkable flexibility make it suitable for any type of Minecraft server, whether a small standalone server or a massive multi-proxy network.
 
 ## Main features of the plugin
 Our plugin has an extensive list of features that can be chosen to be toggled on or off by the end user, but we always make every aspect configurable.
@@ -27,6 +29,7 @@ The vanish state can be activated by staff members using a command or while in S
 ## Freeze
 This tool enables staff members to freeze players and display a message in the chat. It can be particularly useful when staff need to conduct a screenshare on a user to verify if they are cheating.
 ![https://i.imgur.com/J2QEQU7.png](https://i.imgur.com/J2QEQU7.png)
+
 ## **Staff Chat**
 The Staff Chat feature provides a private communication channel for online staff members within the Minecraft server, allowing them to interact with each other discreetly without using the public chat.
 
@@ -34,18 +37,15 @@ The Staff Chat feature provides a private communication channel for online staff
 This plugin is not only capable of running on an independent Minecraft server but is also compatible with Proxy synchronization. This compatibility enables simultaneous usage across multiple servers, facilitating communication of certain plugin features between the backend servers.
 
 ## Multi Proxy
-Nookure Staff is compatible with Proxy synchronization for multi-server use and seamlessly operates on multiple proxies with Redis integration. This allows efficient communication and synchronization of plugin functions across different proxy servers, enhancing scalability and performance in complex server setups.
+VLStaff is compatible with Proxy synchronization for multi-server use and seamlessly operates on multiple proxies with Redis integration. This allows efficient communication and synchronization of plugin functions across different proxy servers, enhancing scalability and performance in complex server setups.
 ![https://docs.nookure.com/assets/redis.BSTi5gb_.svg](https://docs.nookure.com/assets/redis.BSTi5gb_.svg)
 
 ## Customization
-Nookure Staff offers extensively customizable configuration files that allow for precise adjustments to every aspect of the plugin. Messages, items, and commands can be effortlessly modified within seconds. Additionally, the plugin boasts a variety of features that can be selectively enabled or disabled to tailor the user experience and ensure optimal server performance.
+VLStaff offers extensively customizable configuration files that allow for precise adjustments to every aspect of the plugin. Messages, items, and commands can be effortlessly modified within seconds. Additionally, the plugin boasts a variety of features that can be selectively enabled or disabled to tailor the user experience and ensure optimal server performance.
 
 ## Multi-server and proxy sync
-This plugin can work on multiple servers or proxies connecting each instance to a MySQL database. If you want, you can also setup Redis, following the steps in our [official documentation]('https://docs.nookure.com/nkstaff/messenger.html').
+This plugin can work on multiple servers or proxies connecting each instance to a MySQL database. If you want, you can also setup Redis, following the steps in our official documentation (coming soon).
 
-## Usage Stats
-The plugin name in bstats appear as MAStaff (the old plugin name)
-![https://bstats.org/signatures/bukkit/MAStaff.svg](https://bstats.org/signatures/bukkit/MAStaff.svg)
 
 ## Frequently Asked Questions
 
@@ -59,7 +59,7 @@ The plugin name in bstats appear as MAStaff (the old plugin name)
 **A:** Yes, the plugin only supports Velocity, the plugin is only required to execute commands on the proxy and the pm messenger, the rest of the features are executed on the backend server.
 
 **Q:** How can I set up the plugin on my server?
-**A:** You can check our [documentation]('https://docs.nookure.com/nkstaff/messenger.html') to learn how the plugin works and configure each aspect. If you find any difficulties during the process, you can join [our Discord server]('https://discord.nookure.com') and open a ticket, where we will help you fix your issue.
+**A:** You can check our documentation (coming soon) to learn how the plugin works and configure each aspect. If you find any difficulties during the process, you can open a Github issue, where we will help you fix your issue.
 
 **Q:** I can't find a feature that I would like. How can I suggest that to be implemented?
-**A:** You can join [our Discord server]('https://discord.nookure.com') and open a ticket explaining in detail what would you like to be implemented in next updates. We are always listening for feedback and trying to make NookureStaff better!
+**A:** You can open a Github issue explaining in detail what would you like to be implemented in next updates. We are always listening for feedback and trying to make VLStaff better!
